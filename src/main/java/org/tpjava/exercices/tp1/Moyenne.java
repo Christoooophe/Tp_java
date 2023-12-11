@@ -1,6 +1,6 @@
 package org.tpjava.exercices.tp1;
 
-public class moyenne {
+public class Moyenne {
     public static void main(String[] args) {
         int[] tableauDeNotes = new int[] {8, 10, 6, 20, 9};
         calculMoyenne(tableauDeNotes);
