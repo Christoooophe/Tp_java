@@ -1,11 +1,6 @@
-package org.tpjava.exercices.tp1;
+package org.tpjava.tp1.exercice1;
 
 public class Moyenne {
-    public static void main(String[] args) {
-        int[] tableauDeNotes = new int[] {8, 10, 6, 20, 9};
-        calculMoyenne(tableauDeNotes);
-    }
-
     /**
      * On passe le tableau de notes à notre fonction qui va boucler sur chaque note du tableau
      * et qui va incrémenter le total par chaque note et qui va aussi incrémenter le divisuer par 1
