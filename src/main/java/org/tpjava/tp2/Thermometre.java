@@ -23,9 +23,9 @@ public class Thermometre {
     }
     public void setTemperatureCelsius(double temperature, String type){
         if (type == "Kelvin") {
-            this.temperature = temperature + 273.15;
+            this.temperature = temperature - 273.15;
         } else if (type == "Fahrenheit" ) {
-            this.temperature = temperature * 1.8 + 32;
+            this.temperature = (temperature - 32) / 1.8;
         } else {
             this.temperature = temperature;
         }
