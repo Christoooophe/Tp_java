@@ -20,7 +20,7 @@ public class Main {
                 "script",
                 "java",
                 LocalDate.of(1913, 8, 17),
-                LocalDate.of(2023, 10, 20),
+                LocalDate.of(1945, 10, 20),
                 LocalDate.now(),
                 michel.getNom() + " " + michel.getPrenom(),
                 true
@@ -29,5 +29,6 @@ public class Main {
         System.out.println(json.getDebutStage());
         System.out.println("Le coco va être payé " + json.getCombienQuOnVaLePayer(50) + "€");
         json.licencier(LocalDate.of(2023, 10, 30));
+        System.out.println(json.getDureeStage());
     }
 }

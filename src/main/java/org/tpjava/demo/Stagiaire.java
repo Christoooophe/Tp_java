@@ -1,6 +1,7 @@
 package org.tpjava.demo;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.util.Locale;
@@ -42,6 +43,10 @@ public class Stagiaire extends Personne{
 
     public void setFinStage(LocalDate finStage) {
         this.finStage = finStage;
+    }
+
+    public int getDureeStage() {
+        return Period.between(this.debutStage, this.finStage).getDays();
     }
     public double getCombienQuOnVaLePayer(double heuresTravaillees) {
         if(this.estPaye) {
