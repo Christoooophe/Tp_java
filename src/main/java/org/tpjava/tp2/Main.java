@@ -6,8 +6,8 @@ public class Main {
         double celsius;
         double kelvin;
         double fahren;
-        double temp = 323.15;
-        String type = "Kelvin";
+        double temp = 25;
+        String type = "Celsius";
 
         thermometre.setTemperatureKelvin(temp, type);
         kelvin = thermometre.getTemperatureKelvin();
