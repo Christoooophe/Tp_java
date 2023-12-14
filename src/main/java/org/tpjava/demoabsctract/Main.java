@@ -9,6 +9,7 @@ public class Main {
                 "Quezak",
                 "Michel",
                 LocalDate.of(1980, 12, 31),
+
                 30,
                 LocalDate.now()
         );
